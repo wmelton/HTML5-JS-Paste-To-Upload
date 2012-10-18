@@ -1,0 +1,16 @@
+<html>
+<head>
+
+<script type="javascript/text" src="functions.js"> </script>
+</head>
+<body>
+<script>
+$("html").pasteImageReader (results) ->
+  {filename, dataURL} = results
+ 
+  $("body").css
+    backgroundImage: "url(#{dataURL})"
+ </script>
+</body
+
+</html>
